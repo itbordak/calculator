@@ -11,7 +11,7 @@ public class Calculator {
 
     public void run() throws DataEntryError{
         String[] line = mathsService.readLine();
-        long result = mathsService.jobWithLine(line);
+        String result = mathsService.jobWithLine(line);
         System.out.println("result " + result);
     }
 }
