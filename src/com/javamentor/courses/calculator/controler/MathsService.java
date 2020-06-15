@@ -267,7 +267,7 @@ public class MathsService {
             }break;
 
         }
-
+        setMark(-1);
 
         return line;
     }
